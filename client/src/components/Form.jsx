@@ -25,7 +25,7 @@ class Form extends Component {
       <form className="new-member-form" onSubmit={this.handleSubmit}>
         <label for="name">Nom de l&apos;Argonaute</label>
         <input onChange={this.handleChange} id="name" name="name" type="text" placeholder="Charalampos" />
-        <button type="submit">Envoyer</button>
+        <button type="submit" className="btn-submit">Envoyer</button>
       </form>
     );
   }
